@@ -23,10 +23,11 @@
         <img src="{{ asset('images/icon/monitor.png') }}" alt="File Icon" class="icon" />
         <span>Pemantauan</span>
       </button>
-      <button class="custom-button">
+      <button class="custom-button" onclick="location.href='{{ route('laporan.index') }}'">
         <img src="{{ asset('images/icon/report.png') }}" alt="File Icon" class="icon" />
         <span>Laporan</span>
       </button>
+
       <button class="custom-button">
         <img src="{{ asset('images/icon/maps-and-location.png') }}" alt="File Icon" class="icon" />
         <span>Pemetaan & Navigasi</span>

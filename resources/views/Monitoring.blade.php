@@ -1,4 +1,4 @@
-@extends('Navbar')
+@extends('layouts.Navbar')
 
 @section('content')
 <head>
