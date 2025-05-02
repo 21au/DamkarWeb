@@ -7,7 +7,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card';
+} from '@/Components/ui/card';
 import {
   Table,
   TableBody,
@@ -16,10 +16,10 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/components/ui/table';
-import { Button } from '@/components/ui/button';
-import MapView from '@/components/ui/MapView';
-import WeatherWidget from '@/components/ui/WeatherWidget';
+} from '@/Components/ui/table';
+import { Button } from '@/Components/ui/button';
+import MapView from '@/Components/ui/MapView';
+import WeatherWidget from '@/Components/ui/WeatherWidget';
 
 type Laporan = {
   id: number;
