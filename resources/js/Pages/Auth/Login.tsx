@@ -1,5 +1,5 @@
-import Checkbox from '@/Components/Checkbox';
-import PrimaryButton from '@/Components/PrimaryButton';
+import Checkbox from '@/components/Checkbox';
+import PrimaryButton from '@/components/PrimaryButton';
 import GuestLayout from '@/Layouts/GuestLayout';
 import { Head, Link, useForm } from '@inertiajs/react';
 import { FormEventHandler } from 'react';
